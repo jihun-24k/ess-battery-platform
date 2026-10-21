@@ -1,0 +1,56 @@
+{
+  "independent_processes": 5,
+  "services": {
+    "collector": {
+      "status": "ok",
+      "service": "collector",
+      "mock": false,
+      "database": "connected"
+    },
+    "ml": {
+      "status": "ok",
+      "service": "ml",
+      "mock": true,
+      "database": "connected"
+    },
+    "operations": {
+      "status": "ok",
+      "service": "operations",
+      "mock": false,
+      "database": "connected"
+    }
+  },
+  "counts": {
+    "measurements": 24,
+    "predictions": 24,
+    "incidents": 2,
+    "actions": 2,
+    "notifications": 5,
+    "quality_issues": 0
+  },
+  "measurement_statuses": {
+    "predicted": 24
+  },
+  "duplicate_replay": {
+    "inserted": 0,
+    "duplicate": 24
+  },
+  "restart_preserved_counts": true,
+  "actions": [
+    {
+      "incident_id": 2,
+      "status": "already_applied",
+      "attempts": 1,
+      "simulated": true
+    },
+    {
+      "incident_id": 1,
+      "status": "applied",
+      "attempts": 1,
+      "simulated": true
+    }
+  ],
+  "browser_layout_verified": false,
+  "incident_evidence_api_verified": true,
+  "running_session": "runs/platform/d45c93ab8595427fbf8e0a298960cd3a"
+}

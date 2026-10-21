@@ -1,0 +1,40 @@
+[project]
+name = "battery-etl"
+version = "0.1.0"
+description = "Traceable Stanford battery MAT to PostgreSQL ETL"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.12",
+    "h5py>=3.11",
+    "pydantic>=2.8",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+    "scikit-learn>=1.9.1",
+    "joblib>=1.6.0",
+    "openai>=2.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[project.scripts]
+ess-platform = "ess_platform.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ess_platform"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["postgres: requires PLATFORM_TEST_DATABASE_URL pointing to a dedicated PostgreSQL test database"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

@@ -1,0 +1,17 @@
+{
+  "wheel_cli_exit_code": 0,
+  "wheel_report": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/mvp-wheel-final/cd7cc60b-565c-429b-b267-20b548481a6d/report.json",
+  "status": "completed",
+  "counts": {
+    "training_windows": 134,
+    "evaluation_windows": 138,
+    "anomaly_windows": 16,
+    "incidents": 4,
+    "notifications": 8,
+    "action_requests": 4,
+    "action_failures": 0,
+    "recovered_patterns": 4
+  },
+  "packaged_manual_found": true,
+  "stored_model_status": "trained"
+}

@@ -1,0 +1,54 @@
+{
+  "services": {
+    "collector": {
+      "status": "ok",
+      "service": "collector",
+      "mock": false,
+      "database": "connected"
+    },
+    "ml": {
+      "status": "ok",
+      "service": "ml",
+      "mock": true,
+      "database": "connected"
+    },
+    "operations": {
+      "status": "ok",
+      "service": "operations",
+      "mock": false,
+      "database": "connected"
+    }
+  },
+  "counts": {
+    "measurements": 24,
+    "predictions": 24,
+    "incidents": 2,
+    "actions": 2,
+    "notifications": 5,
+    "quality_issues": 0
+  },
+  "preserved_counts_after_refactor": true,
+  "duplicate_replay": {
+    "inserted": 0,
+    "duplicate": 24
+  },
+  "python_docstrings": {
+    "files": 43,
+    "functions": 83,
+    "missing": 0
+  },
+  "pytest": {
+    "tests": 34,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "javascript_tests": {
+    "tests": 9,
+    "failed": 0
+  },
+  "ruff": "passed",
+  "wheel_contents_verified": true,
+  "browser_layout_verified": false,
+  "running_session": "runs/platform/ee7ce2d8218b4329a78f3ff30bcd27f6"
+}

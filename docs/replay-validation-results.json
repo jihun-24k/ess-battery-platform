@@ -1,0 +1,170 @@
+[
+  {
+    "run_id": "aff501c5-872c-4bfa-9146-b1c0b0419ee7",
+    "status": "skipped",
+    "version": "1",
+    "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "batch_label": "batch1",
+    "preview": false,
+    "database": true,
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/replay-validation/aff501c5-872c-4bfa-9146-b1c0b0419ee7",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "9d928ab978f0e3c70b31cb833a749fedd35094d01af76475d69b40aa3497f5ba",
+      "size_bytes": 3025320241,
+      "mtime_ns": 1792206127571890796,
+      "batch_label": "batch1",
+      "batch_date": "2017-05-12",
+      "cell_count": 46,
+      "fields": {
+        "Vdlin": [
+          46,
+          1
+        ],
+        "barcode": [
+          46,
+          1
+        ],
+        "channel_id": [
+          46,
+          1
+        ],
+        "cycle_life": [
+          46,
+          1
+        ],
+        "cycles": [
+          46,
+          1
+        ],
+        "policy": [
+          46,
+          1
+        ],
+        "policy_readable": [
+          46,
+          1
+        ],
+        "summary": [
+          46,
+          1
+        ]
+      },
+      "extra_fields": []
+    },
+    "processed_id": 1,
+    "duration_seconds": 1.257
+  },
+  {
+    "run_id": "c8633e38-5334-4a0a-9c2f-5a9643016f0c",
+    "status": "skipped",
+    "version": "1",
+    "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "batch_label": "batch2",
+    "preview": false,
+    "database": true,
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/replay-validation/c8633e38-5334-4a0a-9c2f-5a9643016f0c",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "3487db505ad08b6c805f41dd0560e73b54077c76aca04f706f06e2356ccf7845",
+      "size_bytes": 2022599329,
+      "mtime_ns": 1792206128598373743,
+      "batch_label": "batch2",
+      "batch_date": "2018-02-20",
+      "cell_count": 47,
+      "fields": {
+        "Vdlin": [
+          47,
+          1
+        ],
+        "barcode": [
+          47,
+          1
+        ],
+        "channel_id": [
+          47,
+          1
+        ],
+        "cycle_life": [
+          47,
+          1
+        ],
+        "cycles": [
+          47,
+          1
+        ],
+        "policy": [
+          47,
+          1
+        ],
+        "policy_readable": [
+          47,
+          1
+        ],
+        "summary": [
+          47,
+          1
+        ]
+      },
+      "extra_fields": []
+    },
+    "processed_id": 2,
+    "duration_seconds": 0.804
+  },
+  {
+    "run_id": "bdcff590-2709-4019-9961-84f76bb7386f",
+    "status": "skipped",
+    "version": "1",
+    "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+    "batch_label": "batch3",
+    "preview": false,
+    "database": true,
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/replay-validation/bdcff590-2709-4019-9961-84f76bb7386f",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "62c30e413b63e6144720e016deed3661fac8468641794a5807b123fe84717998",
+      "size_bytes": 3236690412,
+      "mtime_ns": 1792206130533327199,
+      "batch_label": "batch3",
+      "batch_date": "2018-04-12",
+      "cell_count": 46,
+      "fields": {
+        "Vdlin": [
+          46,
+          1
+        ],
+        "barcode": [
+          46,
+          1
+        ],
+        "channel_id": [
+          46,
+          1
+        ],
+        "cycle_life": [
+          46,
+          1
+        ],
+        "cycles": [
+          46,
+          1
+        ],
+        "policy": [
+          46,
+          1
+        ],
+        "policy_readable": [
+          46,
+          1
+        ],
+        "summary": [
+          46,
+          1
+        ]
+      },
+      "extra_fields": []
+    },
+    "processed_id": 3,
+    "duration_seconds": 1.286
+  }
+]

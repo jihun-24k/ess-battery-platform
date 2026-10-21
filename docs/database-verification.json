@@ -1,0 +1,45 @@
+{
+  "verified_committed_sources": 3,
+  "totals": {
+    "source_files": 3,
+    "processed_sources": 3,
+    "cells": 139,
+    "cycles": 116580,
+    "validation_issues": 5435
+  },
+  "batches": [
+    {
+      "batch_label": "batch1",
+      "cells": 46,
+      "cycles": 38688,
+      "issues": 326,
+      "sample_cycle_index": 1,
+      "all_9_sample_arrays_equal_to_source": true,
+      "sample_summary_equal_to_source": true
+    },
+    {
+      "batch_label": "batch2",
+      "cells": 47,
+      "cycles": 26885,
+      "issues": 5017,
+      "sample_cycle_index": 0,
+      "all_9_sample_arrays_equal_to_source": true,
+      "sample_summary_equal_to_source": true
+    },
+    {
+      "batch_label": "batch3",
+      "cells": 46,
+      "cycles": 51007,
+      "issues": 92,
+      "sample_cycle_index": 0,
+      "all_9_sample_arrays_equal_to_source": true,
+      "sample_summary_equal_to_source": true
+    }
+  ],
+  "null_cycle_life_cells": 10,
+  "empty_current_waveform_cycles": 46,
+  "database_bytes": 7709914803,
+  "postgresql_version": "17.10 (Homebrew)",
+  "replay_all_3_skipped": true,
+  "row_counts_unchanged_after_replay": true
+}

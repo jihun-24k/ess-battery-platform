@@ -1,0 +1,111 @@
+{
+  "implemented_stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "pytest": {
+    "tests": 71,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "javascript": {
+    "tests": 11,
+    "failed": 0
+  },
+  "ruff": "passed",
+  "wheel": "built_and_contents_checked",
+  "services": {
+    "collector": {
+      "status": "ok",
+      "service": "collector",
+      "mock": false,
+      "database": "connected"
+    },
+    "ml": {
+      "status": "ok",
+      "service": "ml",
+      "mock": true,
+      "database": "connected"
+    },
+    "operations": {
+      "status": "ok",
+      "service": "operations",
+      "mock": false,
+      "database": "connected"
+    }
+  },
+  "demo_counts": {
+    "measurements": 12,
+    "predictions": 12,
+    "incidents": 3,
+    "actions": 3,
+    "notifications": 9,
+    "quality_issues": 0
+  },
+  "agent_counts": {
+    "jobs": 3,
+    "runs": 3,
+    "proposals": 3
+  },
+  "legacy_counts_preserved": true,
+  "live_evaluation": {
+    "total": 20,
+    "passed": 16,
+    "validated_assessments": 20,
+    "required_tools_passed": 19,
+    "forbidden_tool_attempts": 0,
+    "intermediate_tool_errors": 2,
+    "known_input_tokens": 231563,
+    "known_output_tokens": 12554,
+    "p95_ms_completed": 9343,
+    "human_semantic_review": "not_formally_performed",
+    "note": "small synthetic evaluation; not physical fault prediction accuracy"
+  },
+  "actual_process_integration": {
+    "kind": "actual_six_process_integration",
+    "physical_control": false,
+    "reviewer": "integration-verification",
+    "status": "passed",
+    "asset_id": "AGENT-DEMO-fc1ba1af64",
+    "incident_id": 3,
+    "proposal_id": 3,
+    "run_id": 3,
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "tool_calls": [
+      "get_measurement_window",
+      "search_response_manuals",
+      "submit_response_proposal",
+      "finish_analysis"
+    ],
+    "usage": {
+      "turns": 4,
+      "elapsed_ms": 7658,
+      "tool_calls": 4,
+      "input_tokens": 15717,
+      "output_tokens": 571
+    },
+    "no_action_before_approval": true,
+    "duplicate_approval": true,
+    "duplicate_ingestion": 4,
+    "action": {
+      "status": "applied",
+      "attempts": 1,
+      "simulated": true
+    }
+  },
+  "python_documentation": {
+    "files": 62,
+    "functions": 158,
+    "missing": []
+  },
+  "browser_layout_verified": false,
+  "approval_auth": "local_bearer_token; disabled when unset",
+  "physical_control_connected": false
+}

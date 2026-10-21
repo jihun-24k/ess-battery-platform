@@ -1,0 +1,7 @@
+{
+  "kind": "actual_six_process_integration",
+  "physical_control": false,
+  "reviewer": "integration-verification",
+  "status": "failed",
+  "error_type": "RuntimeError"
+}

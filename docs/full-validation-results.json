@@ -1,0 +1,203 @@
+[
+  {
+    "run_id": "7d77d9cf-d851-4212-b3d9-c4d9ff9adb02",
+    "status": "succeeded_with_issues",
+    "version": "1",
+    "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+    "batch_label": "batch1",
+    "preview": false,
+    "database": false,
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/full-validation/7d77d9cf-d851-4212-b3d9-c4d9ff9adb02",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "9d928ab978f0e3c70b31cb833a749fedd35094d01af76475d69b40aa3497f5ba",
+      "size_bytes": 3025320241,
+      "mtime_ns": 1792206127571890796,
+      "batch_label": "batch1",
+      "batch_date": "2017-05-12",
+      "cell_count": 46,
+      "fields": {
+        "Vdlin": [
+          46,
+          1
+        ],
+        "barcode": [
+          46,
+          1
+        ],
+        "channel_id": [
+          46,
+          1
+        ],
+        "cycle_life": [
+          46,
+          1
+        ],
+        "cycles": [
+          46,
+          1
+        ],
+        "policy": [
+          46,
+          1
+        ],
+        "policy_readable": [
+          46,
+          1
+        ],
+        "summary": [
+          46,
+          1
+        ]
+      }
+    },
+    "counts": {
+      "cells_seen": 46,
+      "cells_valid": 46,
+      "cycles_seen": 38811,
+      "cycles_valid": 38688,
+      "cycles_quarantined": 123
+    },
+    "rules": {
+      "LABEL_COUNT_DIFF": 46,
+      "IDENTIFIER_UNDECODED": 46,
+      "IR_ZERO": 65,
+      "WAVE_EMPTY": 46,
+      "TIME_REVERSED": 123
+    },
+    "duration_seconds": 31.753
+  },
+  {
+    "run_id": "1dbde8fe-c1b1-4d7f-9b96-91236e95ad8b",
+    "status": "succeeded_with_issues",
+    "version": "1",
+    "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+    "batch_label": "batch2",
+    "preview": false,
+    "database": false,
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/full-validation/1dbde8fe-c1b1-4d7f-9b96-91236e95ad8b",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "3487db505ad08b6c805f41dd0560e73b54077c76aca04f706f06e2356ccf7845",
+      "size_bytes": 2022599329,
+      "mtime_ns": 1792206128598373743,
+      "batch_label": "batch2",
+      "batch_date": "2018-02-20",
+      "cell_count": 47,
+      "fields": {
+        "Vdlin": [
+          47,
+          1
+        ],
+        "barcode": [
+          47,
+          1
+        ],
+        "channel_id": [
+          47,
+          1
+        ],
+        "cycle_life": [
+          47,
+          1
+        ],
+        "cycles": [
+          47,
+          1
+        ],
+        "policy": [
+          47,
+          1
+        ],
+        "policy_readable": [
+          47,
+          1
+        ],
+        "summary": [
+          47,
+          1
+        ]
+      }
+    },
+    "counts": {
+      "cells_seen": 47,
+      "cells_valid": 47,
+      "cycles_seen": 26904,
+      "cycles_valid": 26885,
+      "cycles_quarantined": 19
+    },
+    "rules": {
+      "LABEL_COUNT_DIFF": 39,
+      "IDENTIFIER_UNDECODED": 47,
+      "LABEL_NONFINITE": 8,
+      "TIME_REVERSED": 19,
+      "IR_ZERO": 4904
+    },
+    "duration_seconds": 29.919
+  },
+  {
+    "run_id": "af2ad132-7f0a-435b-9160-ed8ab7a46d37",
+    "status": "succeeded_with_issues",
+    "version": "1",
+    "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+    "batch_label": "batch3",
+    "preview": false,
+    "database": false,
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/full-validation/af2ad132-7f0a-435b-9160-ed8ab7a46d37",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "62c30e413b63e6144720e016deed3661fac8468641794a5807b123fe84717998",
+      "size_bytes": 3236690412,
+      "mtime_ns": 1792206130533327199,
+      "batch_label": "batch3",
+      "batch_date": "2018-04-12",
+      "cell_count": 46,
+      "fields": {
+        "Vdlin": [
+          46,
+          1
+        ],
+        "barcode": [
+          46,
+          1
+        ],
+        "channel_id": [
+          46,
+          1
+        ],
+        "cycle_life": [
+          46,
+          1
+        ],
+        "cycles": [
+          46,
+          1
+        ],
+        "policy": [
+          46,
+          1
+        ],
+        "policy_readable": [
+          46,
+          1
+        ],
+        "summary": [
+          46,
+          1
+        ]
+      }
+    },
+    "counts": {
+      "cells_seen": 46,
+      "cells_valid": 46,
+      "cycles_seen": 51007,
+      "cycles_valid": 51007
+    },
+    "rules": {
+      "LABEL_COUNT_DIFF": 44,
+      "IDENTIFIER_UNDECODED": 46,
+      "LABEL_NONFINITE": 2
+    },
+    "duration_seconds": 60.342
+  }
+]

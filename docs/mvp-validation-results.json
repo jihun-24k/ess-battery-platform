@@ -1,0 +1,402 @@
+[
+  {
+    "run_id": "afcccad2-71dc-4aad-97b5-9d26bc4868bc",
+    "status": "completed",
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/mvp-validation/afcccad2-71dc-4aad-97b5-9d26bc4868bc",
+    "mode": "simulation_only",
+    "config": {
+      "cell_index": 0,
+      "train_cycles": 3,
+      "eval_cycles": 2,
+      "window_size": 32,
+      "stride": 16,
+      "contamination": 0.05,
+      "trigger_windows": 2,
+      "recovery_windows": 3,
+      "manual_dir": "/Users/u079/Documents/ChatGPT/ess-battery-platform/src/ess_mvp/manuals",
+      "demo_temperature_offset": null,
+      "simulate_action_failure": false
+    },
+    "model_kind": "IsolationForest",
+    "model_version": "learning-1",
+    "sklearn_version": "1.9.1",
+    "feature_version": "learning-1",
+    "feature_names": [
+      "temperature_mean",
+      "temperature_max",
+      "temperature_std",
+      "temperature_trend_per_sample",
+      "voltage_mean",
+      "voltage_std",
+      "current_mean",
+      "current_std"
+    ],
+    "reference_labels": "unlabelled_reference",
+    "score_meaning": "negative decision_function; higher is more anomalous; not probability",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/data/raw/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "9d928ab978f0e3c70b31cb833a749fedd35094d01af76475d69b40aa3497f5ba",
+      "size_bytes": 3025320241,
+      "mtime_ns": 1792206127571890796,
+      "batch_label": "mvp-cell-0",
+      "batch_date": "2017-05-12",
+      "cell_count": 46,
+      "fields": {
+        "Vdlin": [
+          46,
+          1
+        ],
+        "barcode": [
+          46,
+          1
+        ],
+        "channel_id": [
+          46,
+          1
+        ],
+        "cycle_life": [
+          46,
+          1
+        ],
+        "cycles": [
+          46,
+          1
+        ],
+        "policy": [
+          46,
+          1
+        ],
+        "policy_readable": [
+          46,
+          1
+        ],
+        "summary": [
+          46,
+          1
+        ]
+      },
+      "extra_fields": []
+    },
+    "training_cycle_positions": [
+      0,
+      2
+    ],
+    "evaluation_cycle_positions": [
+      3,
+      4
+    ],
+    "counts": {
+      "training_windows": 134,
+      "evaluation_windows": 138,
+      "anomaly_windows": 5,
+      "incidents": 2,
+      "notifications": 4,
+      "action_requests": 2,
+      "action_failures": 0,
+      "recovered_patterns": 2
+    },
+    "active_incident": null,
+    "mock_device_mode": "boost",
+    "cooling_effect_verified": false
+  },
+  {
+    "run_id": "e05ca5c8-eb0b-4e2d-a3bc-856577b0ed8e",
+    "status": "completed",
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/mvp-validation/e05ca5c8-eb0b-4e2d-a3bc-856577b0ed8e",
+    "mode": "simulation_only",
+    "config": {
+      "cell_index": 0,
+      "train_cycles": 3,
+      "eval_cycles": 2,
+      "window_size": 32,
+      "stride": 16,
+      "contamination": 0.05,
+      "trigger_windows": 2,
+      "recovery_windows": 3,
+      "manual_dir": "/Users/u079/Documents/ChatGPT/ess-battery-platform/src/ess_mvp/manuals",
+      "demo_temperature_offset": 100.0,
+      "simulate_action_failure": false
+    },
+    "model_kind": "IsolationForest",
+    "model_version": "learning-1",
+    "sklearn_version": "1.9.1",
+    "feature_version": "learning-1",
+    "feature_names": [
+      "temperature_mean",
+      "temperature_max",
+      "temperature_std",
+      "temperature_trend_per_sample",
+      "voltage_mean",
+      "voltage_std",
+      "current_mean",
+      "current_std"
+    ],
+    "reference_labels": "unlabelled_reference",
+    "score_meaning": "negative decision_function; higher is more anomalous; not probability",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/data/raw/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "9d928ab978f0e3c70b31cb833a749fedd35094d01af76475d69b40aa3497f5ba",
+      "size_bytes": 3025320241,
+      "mtime_ns": 1792206127571890796,
+      "batch_label": "mvp-cell-0",
+      "batch_date": "2017-05-12",
+      "cell_count": 46,
+      "fields": {
+        "Vdlin": [
+          46,
+          1
+        ],
+        "barcode": [
+          46,
+          1
+        ],
+        "channel_id": [
+          46,
+          1
+        ],
+        "cycle_life": [
+          46,
+          1
+        ],
+        "cycles": [
+          46,
+          1
+        ],
+        "policy": [
+          46,
+          1
+        ],
+        "policy_readable": [
+          46,
+          1
+        ],
+        "summary": [
+          46,
+          1
+        ]
+      },
+      "extra_fields": []
+    },
+    "training_cycle_positions": [
+      0,
+      2
+    ],
+    "evaluation_cycle_positions": [
+      3,
+      4
+    ],
+    "counts": {
+      "training_windows": 134,
+      "evaluation_windows": 138,
+      "anomaly_windows": 16,
+      "incidents": 4,
+      "notifications": 8,
+      "action_requests": 4,
+      "action_failures": 0,
+      "recovered_patterns": 4
+    },
+    "active_incident": null,
+    "mock_device_mode": "boost",
+    "cooling_effect_verified": false
+  },
+  {
+    "run_id": "0b0ae5da-e748-410e-8576-c4b76f78856a",
+    "status": "completed",
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/mvp-validation/0b0ae5da-e748-410e-8576-c4b76f78856a",
+    "mode": "simulation_only",
+    "config": {
+      "cell_index": 0,
+      "train_cycles": 3,
+      "eval_cycles": 2,
+      "window_size": 32,
+      "stride": 16,
+      "contamination": 0.05,
+      "trigger_windows": 2,
+      "recovery_windows": 3,
+      "manual_dir": "/Users/u079/Documents/ChatGPT/ess-battery-platform/src/ess_mvp/manuals",
+      "demo_temperature_offset": 100.0,
+      "simulate_action_failure": false
+    },
+    "model_kind": "IsolationForest",
+    "model_version": "learning-1",
+    "sklearn_version": "1.9.1",
+    "feature_version": "learning-1",
+    "feature_names": [
+      "temperature_mean",
+      "temperature_max",
+      "temperature_std",
+      "temperature_trend_per_sample",
+      "voltage_mean",
+      "voltage_std",
+      "current_mean",
+      "current_std"
+    ],
+    "reference_labels": "unlabelled_reference",
+    "score_meaning": "negative decision_function; higher is more anomalous; not probability",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/data/raw/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "3487db505ad08b6c805f41dd0560e73b54077c76aca04f706f06e2356ccf7845",
+      "size_bytes": 2022599329,
+      "mtime_ns": 1792206128598373743,
+      "batch_label": "mvp-cell-0",
+      "batch_date": "2018-02-20",
+      "cell_count": 47,
+      "fields": {
+        "Vdlin": [
+          47,
+          1
+        ],
+        "barcode": [
+          47,
+          1
+        ],
+        "channel_id": [
+          47,
+          1
+        ],
+        "cycle_life": [
+          47,
+          1
+        ],
+        "cycles": [
+          47,
+          1
+        ],
+        "policy": [
+          47,
+          1
+        ],
+        "policy_readable": [
+          47,
+          1
+        ],
+        "summary": [
+          47,
+          1
+        ]
+      },
+      "extra_fields": []
+    },
+    "training_cycle_positions": [
+      0,
+      2
+    ],
+    "evaluation_cycle_positions": [
+      3,
+      4
+    ],
+    "counts": {
+      "training_windows": 190,
+      "evaluation_windows": 125,
+      "anomaly_windows": 29,
+      "incidents": 6,
+      "notifications": 12,
+      "action_requests": 6,
+      "action_failures": 0,
+      "recovered_patterns": 6
+    },
+    "active_incident": null,
+    "mock_device_mode": "boost",
+    "cooling_effect_verified": false
+  },
+  {
+    "run_id": "c6e2c36a-ad28-47c7-8e7b-e24e05f24983",
+    "status": "completed",
+    "artifact_path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/runs/mvp-validation/c6e2c36a-ad28-47c7-8e7b-e24e05f24983",
+    "mode": "simulation_only",
+    "config": {
+      "cell_index": 0,
+      "train_cycles": 3,
+      "eval_cycles": 2,
+      "window_size": 32,
+      "stride": 16,
+      "contamination": 0.05,
+      "trigger_windows": 2,
+      "recovery_windows": 3,
+      "manual_dir": "/Users/u079/Documents/ChatGPT/ess-battery-platform/src/ess_mvp/manuals",
+      "demo_temperature_offset": 100.0,
+      "simulate_action_failure": false
+    },
+    "model_kind": "IsolationForest",
+    "model_version": "learning-1",
+    "sklearn_version": "1.9.1",
+    "feature_version": "learning-1",
+    "feature_names": [
+      "temperature_mean",
+      "temperature_max",
+      "temperature_std",
+      "temperature_trend_per_sample",
+      "voltage_mean",
+      "voltage_std",
+      "current_mean",
+      "current_std"
+    ],
+    "reference_labels": "unlabelled_reference",
+    "score_meaning": "negative decision_function; higher is more anomalous; not probability",
+    "source": {
+      "path": "/Users/u079/Documents/ChatGPT/ess-battery-platform/data/raw/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "sha256": "62c30e413b63e6144720e016deed3661fac8468641794a5807b123fe84717998",
+      "size_bytes": 3236690412,
+      "mtime_ns": 1792206130533327199,
+      "batch_label": "mvp-cell-0",
+      "batch_date": "2018-04-12",
+      "cell_count": 46,
+      "fields": {
+        "Vdlin": [
+          46,
+          1
+        ],
+        "barcode": [
+          46,
+          1
+        ],
+        "channel_id": [
+          46,
+          1
+        ],
+        "cycle_life": [
+          46,
+          1
+        ],
+        "cycles": [
+          46,
+          1
+        ],
+        "policy": [
+          46,
+          1
+        ],
+        "policy_readable": [
+          46,
+          1
+        ],
+        "summary": [
+          46,
+          1
+        ]
+      },
+      "extra_fields": []
+    },
+    "training_cycle_positions": [
+      0,
+      2
+    ],
+    "evaluation_cycle_positions": [
+      3,
+      4
+    ],
+    "counts": {
+      "training_windows": 138,
+      "evaluation_windows": 92,
+      "anomaly_windows": 13,
+      "incidents": 2,
+      "notifications": 4,
+      "action_requests": 2,
+      "action_failures": 0,
+      "recovered_patterns": 1
+    },
+    "active_incident": "c6e2c36a-ad28-47c7-8e7b-e24e05f24983:2",
+    "mock_device_mode": "boost",
+    "cooling_effect_verified": false
+  }
+]
